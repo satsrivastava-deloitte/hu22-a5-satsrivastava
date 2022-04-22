@@ -1,0 +1,55 @@
+.header-container {
+  font: normal 18px "Roboto";
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.header-title {
+  font: normal 4em "Roboto";
+  margin: 0px;
+}
+
+.tab-items-container {
+  max-width: 800px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tab-item {
+  flex-grow: 1;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+}
+
+.tab-item::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  transform: scaleX(0);
+  background: #333;
+  transition: 0.7s transform cubic-bezier(0.06, 0.9, 0.28, 1);
+}
+
+.tab-item:hover::after {
+  transform: scaleX(1);
+}
+
+.tab-item:focus {
+  font-weight: bold;
+}
+
+.divider {
+  margin-top: 10px;
+  background-color: black;
+  height: 1px;
+}
+
+.tab-item {
+  color: black;
+  text-decoration-line: none;
+}

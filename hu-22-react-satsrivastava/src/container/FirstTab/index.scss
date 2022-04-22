@@ -1,0 +1,65 @@
+.first-tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  //padding: 10px;
+}
+
+.posts-container {
+  width: 600px;
+  height: 700px;
+  border: 1px solid black;
+  //padding: 10px;
+  //background-color: aqua;
+}
+
+.test{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fixer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  padding: 2px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+   Arial, sans-serif;
+   width: 48%;
+   padding: 0px 40px;
+   margin-left: 30%;
+   //box-shadow:(0 1px 1px rgba(black, 0.1));
+   font-size: 20px;
+   max-width: 250px;
+   cursor: default;
+}
+
+#change{
+  background-color:black;
+  //text-align: center;
+  padding: 14px 40px;
+
+  max-width: 250px;
+  font-size: 20px;
+  width: 75%;
+}
+
+// Can't able to fetch mui material of brightness so I have created it
+#circle{
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width:50px;
+  height:50px;
+  -webkit-border-radius:25px;
+  -moz-border-radius:25px;
+  border-radius:25px;
+  margin-left: 45%;
+  padding: 2px;
+  margin-top: 0.8em;
+  background: black;
+}
